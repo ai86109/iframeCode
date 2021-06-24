@@ -1,0 +1,31 @@
+input[type="text"] {
+  width: 500px;
+  padding: 5px;
+}
+
+input ~ input {
+  margin-top: 10px;
+}
+
+.answerBlock {
+  background: rgba(195, 195, 195, 0.8);
+  min-width: 500px;
+  min-height: 200px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.answer {
+  padding: 10px 30px 10px 10px;
+}
+
+a {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+img {
+  width: 20px;
+}
